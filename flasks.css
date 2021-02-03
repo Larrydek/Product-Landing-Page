@@ -23,7 +23,7 @@ body {
 }
 .center {
     position: relative;
-    bottom: 200px;
+    bottom: -100px;
     max-width: 1000px;
     width: 100%;
     margin: auto;
@@ -45,12 +45,13 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: -100px;
+    top: 200px;
 }
 .grid {
     display: flex;
     flex-direction: row;
     text-align: left;
+    position: relative;
 }
 .icon {
     display: flex;
@@ -74,4 +75,13 @@ font-size: 1em;
 font-family: Georgia, 'Times New Roman', Times, serif;
 position: relative;
 top: -20px;
+}
+.shop {
+    display: flex;
+    flex-direction: row;
+}
+.buy {
+    border-color: green;
+    border-width: 5px;
+    border-style: solid;
 }
