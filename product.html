@@ -4,45 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab Equipment</title>
+    <link rel="stylesheet" href="flasks.css">
 </head>
 
 <body>
     <header id="header">
-        <img src="" id="header-img">
-        <nav id="nav-bar">
+        <div>
+        <img id="header-img" src="acechemicallogo.png" alt="ACE Chemical logo">
+        </div>
+        <nav id="nav-bar">                                                            <!--BARRA DE NAVEGACIÓN-->
             <p class="nav-link"><a href="#features">Features</a></p>
             <p class="nav-link"><a href="#aboutus">About Us</a></p> 
             <p class="nav-link"><a href="#shopping">Shopping</a></p>        
         </nav>
-        <h1>¿Ready for the lab of your dreams?</h1>
     </header>
-     
-    <section id="features">
-        <div>
-            <h2>Personal security equipment</h2>
-            <p>Stay safe with high quality protection</p>
-        </div>
-        <div>
-            <h2>Tools, machines, and work equipment</h2>
-            <p>From flasks to rotavapors</p>
-        </div>
-        <div>
-            <h2>Reactives</h2>
-            <p>Order any compound you need for your synthesis</p>
-        </div>
+  
+    <section id="mailsito">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" placeholder="email" name="email">
+        <input type="submit" id="submit" value="Get Started">
+    </form>
     </section>
 
-    <section id="aboutus">
+    <section id="features">
+    <div class="center">
+     <div class="grid">
+        <div class="icon">
+            <img id="gloves" src="https://cdn3.iconfinder.com/data/icons/science-and-laboratory-1/85/safety_glasses_glove_goggles-512.png" alt="Gloves">
+         </div>
+        <div class="ftrs">
+            <h2>Personal security equipment</h2>
+            <p>Stay safe with high quality protection, from gloves to special NBQ suits</p>
+        </div>
+      </div>
+
+      <div class="grid">
+         <div class="icon">
+          <img id="rotavap" src="https://image.shutterstock.com/image-vector/vacuum-evaporator-line-icon-vector-260nw-1813779137.jpg" alt="Machines">
+        </div>
+        <div class="ftrs">
+            <h2>Tools, machines, and work equipment</h2>
+            <p>From flasks to rotavapors. We also do manteinance work </p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="icon">
+          <img id="compound" src="https://media.istockphoto.com/vectors/chemical-compound-icon-vector-id979044920?s=170x170" alt="Compounds">
+        </div>
+        <div class="ftrs">
+            <h2>Reactives</h2>
+            <p>More purity needed? Order any compound you want for your synthesis.</p>
+        </div>
+     </div>
+    </div>
+      </section>  
+
+    <section id="aboutus">                <!--VIDEO-->
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/chODOKSPJS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        </iframe>
     </section>
-    
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input type="email" id="email" placeholder="email">
-        <input type="submit" id="submit">
-    </form>
 
-    <section id="shopping">
+    <section id="shopping">              <!--COMPRAS-->
+      <div class="shop"> 
         <div>
           <h3>Gloves</h3>
         </div>
@@ -53,7 +77,10 @@
           <h3>Lab coat</h3>
         </div>
         <p>See more</p>
+      </div>
     </section>
+   </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </body>
 </html>
