@@ -71,14 +71,17 @@ h2 {
     bottom: -10px;
 }
 p {
-font-size: 1em;
-font-family: Georgia, 'Times New Roman', Times, serif;
-position: relative;
-top: -20px;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -20px;
 }
-.shop {
+#shopping {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: -300px;
 }
 .buy {
     border-color: green;
