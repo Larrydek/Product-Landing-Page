@@ -1,12 +1,25 @@
 nav {
-    display: flex;
-    flex-direction: row;
-    width: 40vw;
     position: fixed;
-    left: 1200px;
+    width: 45vw;
+    left: 65vw;
+}
+header {
+    height: 100px;
 }
 .nav-link {
-    margin: 30px 70px 0px 70px;
+    margin: 30px 70px;
+    font-size: 1.2em;
+    color: white;
+    justify-content: space-around;
+}
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    border-radius: 990px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 header {
     display: flex;
@@ -17,9 +30,24 @@ header {
     position: fixed;
     width: 420px;
     height: 340px;
+    transform: rotate(5deg);
 }
 body {
     margin: auto;
+    background-color: white;
+}
+#features {
+    height: 500px;
+}
+#aboutus {
+    height: 600px;
+}
+#shopping {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    padding-top: 50px;
 }
 .center {
     position: relative;
@@ -67,6 +95,7 @@ iframe {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5em;
+    color: green;
     position: relative;
     bottom: -10px;
 }
@@ -74,17 +103,20 @@ p {
     font-size: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    top: -20px;
-}
-#shopping {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    bottom: -300px;
 }
 .buy {
     border-color: green;
     border-width: 5px;
     border-style: solid;
+    border-radius: 20px;
+    width: 280px;
+    height: 310px;
+    margin: 10px;
+}
+#product {
+    max-width: 80%;
+}
+form {
+    position: fixed;
+    top: 200px;
 }
