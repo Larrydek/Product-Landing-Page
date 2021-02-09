@@ -1,2 +1,2 @@
 <h1> PRODUCT LANDING PAGE <h1>
-<p> this is the 3rd challenge on the Responsive Web Design section on freeCodeCamp.org, I chose to do the Ace Chemical web page from Batman. 
+<p> this is the 3rd challenge on the Responsive Web Design section on freeCodeCamp.org, I chose to do the Ace Chemical web page from Batman. </p>
