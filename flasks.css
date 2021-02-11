@@ -7,6 +7,12 @@ header {
     top: 0;
     background-color: white;
 }
+
+#intro {
+    position: relative;
+    bottom: -150px;
+    height: 400px;
+}
                    
 #flex-container {
     display: flex;
@@ -15,9 +21,9 @@ header {
 
 #nav-bar {
     background-color: green;
-    border-radius: 25px;
-    max-width: 450px;
-    width: 45vw;
+    border-radius: 15px;
+    max-width: 550px;
+    width: 50vw;
 }
 
 .nav-link {
@@ -25,10 +31,23 @@ header {
     font-size: 1.2em;
     color: white;
 }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px;
+}
+
+a {
+    color: white;
+    
+}
                                         /*EMAIL Y COSAS DE ADENTRO*/
 .form-container {
     position: relative;
-    bottom: -200px;
     text-align: center;
 }
 
@@ -36,6 +55,10 @@ h1 {
     font-size: 3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: green;
+}
+
+form p {
+    font-size: 1.5em;
 }
 
 form {
@@ -52,6 +75,8 @@ input {
 }
 
 #email {
+    border-color: lightgreen;
+    border-width: 4px;
     border-radius: 5px;
     height: 24px;
     width: 300px;
@@ -62,15 +87,6 @@ input {
     height: 30px;
     width: 140px;
     background-color: lightgreen;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    padding: 0px;
 }
 
 #header-img {
@@ -85,13 +101,13 @@ nav ul {
     height: 100%;
 }
 
-body {
+body, header {
     margin: auto;
-    background-color: white;
+    background-color: #eee;
 }
 
 #features {
-    height: 900px;
+    height: 600px;
 }
 
 #aboutus {
@@ -107,7 +123,7 @@ body {
 
 .center {
     position: relative;
-    bottom: -400px;
+    bottom: -200px;
     max-width: 1000px;
     width: 100%;
     margin: auto;
