@@ -26,7 +26,28 @@ header {
     color: white;
 }
 
+.form-container {
+    position: relative;
+    bottom: -300px;
+}
+
+h1{
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 form {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+input {
     margin-left: auto;
     margin-right: auto;
 }
@@ -151,10 +172,6 @@ h2 {
     max-width: 80%;
 }
 
-form {
-    position: fixed;
-    top: 200px;
-}
                                                              /* PIE DE PÁGINA */
 .foot {
     display: flex;
