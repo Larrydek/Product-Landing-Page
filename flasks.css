@@ -41,8 +41,9 @@ nav ul {
     padding: 0px;
 }
 
-a {
+#nav-bar a {
     color: white;
+    text-decoration: none;
     
 }
                                         /*EMAIL Y COSAS DE ADENTRO*/
@@ -112,6 +113,7 @@ body, header {
 
 #aboutus {
     height: 500px;
+    margin-top: 100px;
 }
 
 #shopping {
@@ -119,6 +121,7 @@ body, header {
     flex-direction: row;
     justify-content: center;
     position: relative;
+    margin-top: 100px;
 }
 
 .center {
@@ -167,6 +170,7 @@ iframe {
 
 #gloves, #rotavap, #compound {
     max-width: 120px;
+    border-radius: 30px;
 }
 
 h2 {
@@ -192,6 +196,7 @@ h2 {
     width: 280px;
     height: 310px;
     margin: 10px;
+    background-color: white;
 }
 
 #product {
