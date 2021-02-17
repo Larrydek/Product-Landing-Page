@@ -10,7 +10,7 @@ header {
 
 #intro {
     position: relative;
-    bottom: -150px;
+    bottom: -100px;
     height: 400px;
 }
                    
@@ -84,15 +84,18 @@ input {
 }
 
 #submit {
+    margin-top: 8px;
+    font-size: 1.3em;
+    color: white;
     border-radius: 2px;
-    height: 30px;
+    height: 40px;
     width: 140px;
     background-color: lightgreen;
 }
 
 #header-img {
     position: fixed;
-    width: 30vw;
+    width: 28vw;
     height: 25vw;
     max-width: 420px;
     max-height: 350px;
@@ -108,7 +111,9 @@ body, header {
 }
 
 #features {
-    height: 600px;
+    height: 500px;
+    position: relative;
+    bottom: -150px;
 }
 
 #aboutus {
@@ -126,10 +131,10 @@ body, header {
 
 .center {
     position: relative;
-    bottom: -200px;
     max-width: 1000px;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0;
     text-align: center;
 }
 
@@ -139,7 +144,7 @@ body, header {
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    width: 500px;
+    width: 600px;
     position: relative;
     left: -50px;
 }
@@ -165,11 +170,11 @@ iframe {
     justify-content: center;
     width: 150px;
     position: relative;
-    right: -87px;
+    right: -60px;
 }
 
 #gloves, #rotavap, #compound {
-    max-width: 120px;
+    max-width: 105px;
     border-radius: 30px;
 }
 
@@ -189,6 +194,8 @@ h2 {
 }
 
 .buy {
+    display: flex;
+    flex-direction: column;
     border-color: green;
     border-width: 5px;
     border-style: solid;
@@ -199,8 +206,19 @@ h2 {
     background-color: white;
 }
 
+h3 {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: grey;
+    margin: 0 auto;
+
+}
+
 #product {
     max-width: 80%;
+    margin: 0 auto;
 }
 
                                                              /* PIE DE PÁGINA */
@@ -215,7 +233,7 @@ h2 {
     margin-right: auto;
     background-color: lightgrey;
     border-radius: 10px;
-    width: 920px;
+    max-width: 920px;
     height: 50px;
 }
 
@@ -244,4 +262,10 @@ footer div p {
 
 #submit {
 
+}
+
+@media (max-width: 900px) {
+    #gloves, #rotavap, #compound {
+        display: none;
+    }
 }
