@@ -1,7 +1,7 @@
 
 header {
     z-index: 100;
-    height: 75px;
+    height: 50px;
     width: 100vw;
     position: fixed;
     top: 0;
@@ -290,5 +290,19 @@ footer div p {
         text-align: center;
         position: relative;
         right: -50px;
+    }
+    .acid {
+        font-size: 1.1em;
+    }
+    #nav-bar {
+        width: 70vw;
+    }
+    #shopping {
+        flex-direction: column;
+    }
+    .buy {
+        margin: 10px auto;
+        width: 250px;
+        height: 270px;
     }
 }
