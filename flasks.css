@@ -20,7 +20,7 @@ header {
 }
 
 #nav-bar {
-    background-color: green;
+    background-color: #3cb42f;
     border-radius: 15px;
     max-width: 550px;
     width: 50vw;
@@ -162,15 +162,19 @@ iframe {
     flex-direction: row;
     text-align: left;
     position: relative;
+    height: 150px;
 }
 
 .icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
+    width: 135px;
+    height: 135px;
     position: relative;
     right: -60px;
+    background-color: white;
+    border-radius: 100%;
 }
 
 #gloves, #rotavap, #compound {
@@ -197,11 +201,12 @@ h2 {
     display: flex;
     flex-direction: column;
     border-color: green;
-    border-width: 5px;
+    border-width: 7px;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 280px;
-    height: 310px;
+    max-height: 330px;
+    height: 30vw;
     margin: 10px;
     background-color: white;
 }
@@ -210,15 +215,32 @@ h3 {
     width: 100%;
     height: 30px;
     text-align: center;
-    border-radius: 5px;
-    background-color: grey;
+    border-radius: 0px;
+    border-color: green;
+    border-width: 8px;
+    background-color: green;
     margin: 0 auto;
+    color: white;
 
 }
 
 #product {
-    max-width: 80%;
+    max-width: 95%;
+    max-height: 70%;
     margin: 0 auto;
+    width: 400px;
+    height: 350px;
+}
+
+#select {
+    margin-top: 8px;
+    font-size: 1.3em;
+    color: white;
+    border-radius: 2px;
+    height: 40px;
+    width: 140px;
+    background-color: #3cb42f;
+    float: right;
 }
 
                                                              /* PIE DE PÁGINA */
@@ -260,12 +282,13 @@ footer div p {
     margin: 0;
 }
 
-#submit {
-
-}
-
 @media (max-width: 900px) {
-    #gloves, #rotavap, #compound {
+    #gloves, #rotavap, #compound, .icon {
         display: none;
+    }
+    .grid, .ftrs {
+        text-align: center;
+        position: relative;
+        right: -50px;
     }
 }
